@@ -13,7 +13,15 @@ const cardsData = [
     date: "August 26, 2016",
     },
 ];
-
+const Card = ({img, title, description}) => {
+    return (
+      <div className="card">
+        <img src={img} alt={title} className="card-image" />
+        <h2 className="card-title">{title}</h2>
+        <p className="card-description">{description}</p>
+      </div>
+    );
+  };
 const App = () => {
     return (
         <div>
