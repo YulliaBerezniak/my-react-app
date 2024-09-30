@@ -8,10 +8,16 @@ const cardsData = [
     },
     {
     img: "https://images.pexels.com/photos/17077092/pexels-photo-17077092/free-photo-of-sunset-over-the-sea-on-a-tropical-beach.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    title: "Tropical Beatch",
+    title: "Tropical Beach",
     description: "Sunset Over the Sea on a Tropical Beach in Bayahíbe, La Altagracia, Dominik Cumhuriyeti.",
     date: "August 26, 2016",
     },
+    {
+      img: "https://images.pexels.com/photos/4713348/pexels-photo-4713348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "Palm Tree",
+      description: "Palm Trees on Beach Shore.",
+      date: "June 23, 2020",
+      },
 ];
 const Card = ({img, title, description}) => {
     return (
