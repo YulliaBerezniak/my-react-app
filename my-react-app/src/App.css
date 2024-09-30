@@ -35,6 +35,14 @@
 
 .card {
   padding: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  border-style: solid; 
+  border-color: rgb(224, 203, 63); 
+  border-radius: 5px;
+  padding: 20px;height: 550px; 
+  align-content: center;
 }
 
 .read-the-docs {
